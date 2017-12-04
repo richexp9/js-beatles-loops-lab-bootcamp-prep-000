@@ -34,7 +34,10 @@ function iLoveTheBeatles(number) {
   var array = []
   do {
     array.push("I love the Beatles!")
+<<<<<<< HEAD
     number++
+=======
+>>>>>>> 56bbe05b198141e828a8f1d9056ca144f68cefe4
   } while (number < 15);
   return array
 }
