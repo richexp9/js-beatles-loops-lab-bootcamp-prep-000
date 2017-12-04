@@ -30,14 +30,24 @@ function johnLennonFacts(facts) {
 // johnLennonFacts(JLfacts)
 
 
-function iLoveTheBeatles(number) {
+function iLoveTheBeatles(n) {
   var array = []
   do {
-    array.push("I love the Beatles!")
-<<<<<<< HEAD
-    number++
-=======
->>>>>>> 56bbe05b198141e828a8f1d9056ca144f68cefe4
-  } while (number < 15);
-  return array
+    array.push("I love the Beatles!");
+    n++;
+  }
+  while (n < 15);
+  return array;
 }
+
+// function iLoveTheBeatles(number) {
+//   var array = []
+//   do {
+//     array.push("I love the Beatles!")
+// <<<<<<< HEAD
+//     number++
+// =======
+// >>>>>>> 56bbe05b198141e828a8f1d9056ca144f68cefe4
+//   } while (number < 15);
+//   return array
+// }
